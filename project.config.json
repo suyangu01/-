@@ -22,7 +22,8 @@
 		},
 		"conversation": {
 			"current": -1,
-			"list": []
+			"list": [],
+			"github":20180705
 		},
 		"plugin": {
 			"current": -1,
