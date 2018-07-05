@@ -1,0 +1,114 @@
+/* pages/distribution.wxss */
+.distribution .title{
+  height:130rpx;
+  padding: 0 40rpx;
+  line-height: 130rpx;
+  border-top:2rpx solid rgb(246,246,246);
+}
+.title .disMoney{
+  display: inline-block;
+  font-size: 28rpx;
+}
+.title .money{
+  display: inline-block;
+  font-size: 32rpx;
+  color:red;
+  margin-left:24rpx;
+}
+.title .changeMoney{
+  display: inline-block;
+  font-size: 28rpx; 
+  width:110rpx;
+  height:50rpx;
+  background: red;
+  color:#fff;
+  line-height: 50rpx;
+  text-align: center;
+  margin-left:30rpx;  
+}
+.title .downLine{
+  display: inline-block;
+  width:160rpx;
+  height:48rpx;
+  font-size:28rpx;
+  border:2rpx solid red;
+  line-height: 50rpx; 
+  text-align: center;
+  color:red;
+  margin-left:60rpx;
+}
+.distribution .titleInfo{
+  height:100rpx;
+  line-height:100rpx;
+  font-size:28rpx;
+  padding:0 40rpx;
+  background:rgb(246,246,246);
+  position: relative;
+}
+.distribution .titleInfo .time{
+  display: inline-block;
+  margin-right:40rpx;
+  color:#222222;
+}
+.distribution .titleInfo .commission{
+  display: inline-block;
+  color:#666666;
+  margin-right: 45rpx;
+}
+.distribution .titleInfo .byMoney{
+  display: inline-block;
+  color:#666666;
+  margin-right:28rpx;
+}
+.distribution .titleInfo .downIocn image{
+  width: 26rpx;
+  height: 14rpx;
+  position: absolute;
+  right: 70rpx;
+  bottom: 40rpx;
+}
+/*标题头部  */
+.distribution .barTitle{
+  height:100rpx;
+  display: flex;
+  padding:15rpx 0;
+  text-align: center;
+  line-height: 100rpx;
+}
+.distribution .barTitle .barTitle-info{
+  flex:1;
+  font-size:28rpx;
+  border-right:4rpx solid rgb(246,246,246);
+  border-bottom:4rpx solid rgb(246,246,246);
+  color:#222222;
+}
+.distribution .barTitle .barTitle-info:first-child{
+  border-bottom:4rpx solid red;
+}
+/*内容列表  */
+.distribution .itemList{
+  height:100rpx;
+  font-size:26rpx;
+  line-height:100rpx;
+  padding:0 15rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+.distribution .itemList .time{
+  display: inline-block;
+}
+.distribution .itemList .time .timeYear{
+  display: inline-block;
+  margin-right:15rpx;
+
+}
+.distribution .itemList .time .timeDate{
+  display: inline-block;
+}
+.distribution .itemList .withdrawal{
+  float:right;
+  margin-right:20rpx;
+  color:red;
+}
+.distribution .itemList .withdrawal .addOrLose{
+  padding-right:10rpx;
+}

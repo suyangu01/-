@@ -1,0 +1,93 @@
+<view class="affirm">
+
+  <!--买家收货信息  -->
+  <view class="take-info">
+    <view class="info">
+      <view class="take-icon">
+        <image src="/static/images/take.png"></image>
+      </view>
+      <view class="consignee txtColor">收货人：霸王龙</view>
+      <view class="take-phone txtColor">电话：13722358135</view>
+    </view>
+    <view class="take-site txtColor">收货地址：广东省广州市海珠区</view>
+  </view>
+
+  <!--商品  -->
+  <view class="commodity-info">
+    <view class="commodity-img">
+      <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4198465617,4259583419&fm=200&gp=0.jpg"></image>
+    </view>
+    <view class="texts">
+      <view class="commodity-title txtColor">壁挂纯水机壁挂纯水机NS-B6-75C</view>
+      <view class="commodity-type">有趣味</view>
+      <view class="commodity-price">￥
+        <text>27.90</text>
+      </view>
+      <view class="commodity-quantity">x
+        <text>1</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="message">
+    <view class="message-box">
+      <view class='message-text'>买家留言：</view>
+      <view class="message-input">
+        <input placeholder="选填" placeholder-class="placeholder-style" maxlength="10"></input>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="amount">
+    <view class="commodity-amount">共
+      <text>1</text>件商品</view>
+    <view class="price-amount">小计￥
+      <text>27.90</text>
+    </view>
+    <view class="member-price">(会员价)￥
+      <text>20.00</text>
+    </view>
+  </view>
+
+
+  <view class="footer">
+    <view class="total-price">合计：
+      <text class="red">￥29.90</text>
+    </view>
+    <view class="submit-btn" bindtap='showClick'>提交订单</view>
+  </view>
+
+
+
+  <!--弹出窗口  -->
+  <view class="popup-box {{popup ? 'show': 'hidden'}}" bindtap='hiddenClick'>
+    <view class="popup">
+      <view class="popup-title">付款方式</view>
+      <!--付款方式  -->
+      <view class="payment-modes">
+        <view class="payment-wx">
+          <view class="wx-icon">
+             <image src="/static/images/wx-icon.png"></image> 
+          </view>
+          <view class="wx-text">微信支付</view>
+        </view> 
+
+        <view class="payment-voucher">
+          <view class="voucher-icon">
+             <image src="/static/images/voucher-icon.png"></image> 
+          </view>
+          <view class="voucher-text">上传付款凭证</view>
+        </view>
+
+      </view>
+    
+    
+    
+    </view>
+
+
+  </view>
+
+
+</view>

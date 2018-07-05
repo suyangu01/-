@@ -1,0 +1,225 @@
+<!--pages/commodity/commodity.wxml-->
+<view class='commodity'>
+  <!-- 商品详情  -->
+  <view class='commodity-top'>
+    <view class='commodity-image'>
+      <image src=''></image>
+    </view>
+    <view class='commodity-top-content'>
+      <view class='clearfix commodity-top-title'>
+        <view class='fl commodity-top-title-l'>
+          壁挂纯水机壁挂纯水机NS-B6-75C6壁挂纯水机壁挂纯水机NS-B6-75C6
+        </view>
+        <image src='/image/877019286142557018.png' class='commodity-top-title-r fr'></image>
+      </view>
+      <view class='clearfix commodity-top-money'>
+        <view class='fl commodity-top-money-one'>￥129</view>
+        <view class='fl commodity-top-money-two'>会员价:￥30.80</view>
+        <view class='fr  commodity-top-money-three'>月销量1920</view>
+      </view>
+    </view>
+    <view class='commodity-top-bottom'>
+      <view class='commodity-top-bottom-content clearfix'>
+        <view class='fl'>
+          会员卡
+        </view>
+        <view class='fr commodity-top-bottom-btn'>
+          开通
+        </view>
+      </view>
+    </view>
+    <view class='commodity-top-xz'>
+      <view class='clearfix commodity-top-xz-text'>
+        <view class='fl'>
+          选择类型
+        </view>
+        <image src='/image/260153012991719421.png' class='commodity-top-xz-icon fr'></image>
+      </view>
+      <view class='clearfix commodity-top-xz-text'>
+        <view class='fl'>
+          选择类型
+        </view>
+        <image src='/image/260153012991719421.png' class='commodity-top-xz-icon fr'></image>
+      </view>
+      <view class='clearfix commodity-top-xz-text'>
+        <view class='fl'>
+          选择类型
+        </view>
+        <image src='/image/260153012991719421.png' class='commodity-top-xz-icon fr'></image>
+      </view>
+    </view>
+  </view>
+  <!--商品评价  -->
+  <view class='commodity-pin'>
+    <view>
+      <view class='commodity-pin-top clearfix'>
+        <view class='fl'>评价(125)</view>
+        <view class='fr'>共134条评论</view>
+      </view>
+      <view class='commodity-pin-content'>
+        <view class='clearfix commodity-pin-content-name'>
+          <view class='fl commodity-pin-content-names'>
+            呼啦啦啦
+          </view>
+          <view class='fl'>
+            缺少星星
+          </view>
+          <view class='fr commodity-pin-content-time'>2018-06-09</view>
+        </view>
+        <view class='commodity-pin-content-text'>
+          很好用，很实惠，很好用，很实惠，很好用，很实惠，很好用，很实惠，很好用，很实惠
+        </view>
+        <view class='commodity-pin-content-image'>
+          <image src=''></image>
+          <image src=''></image>
+          <image src=''></image>
+        </view>
+      </view>
+      <view class='commodity-pin-content'>
+        <view class='clearfix commodity-pin-content-name'>
+          <view class='fl commodity-pin-content-names'>
+            呼啦啦啦
+          </view>
+          <view class='fl'>
+            缺少星星
+          </view>
+          <view class='fr commodity-pin-content-time'>2018-06-09</view>
+        </view>
+        <view class='commodity-pin-content-text'>
+          很好用，很实惠，很好用，很实惠，很好用，很实惠，很好用，很实惠，很好用，很实惠
+        </view>
+        <view class='commodity-pin-content-image'>
+          <image src=''></image>
+          <image src=''></image>
+          <image src=''></image>
+        </view>
+      </view>
+    </view>
+    <view class='commodity-pin-btn'>
+      查看全部
+    </view>
+
+  </view>
+
+  <!--商品介绍  -->
+  <view class='commodity-pin commodity-bottom'>
+    <view>
+      <view class='commodity-pin-top clearfix'>
+        <view class='fl red'>商品介绍</view>
+      </view>
+    </view>
+  </view>
+
+  <!--底部按钮  -->
+  <view class='commodity-foot clearfix'>
+    <view class='fl commodity-foot-view commodity-foot-view-one'>
+      <view class='fl'>
+        <image src='/image/726284238821082789.png' class='commodity-foot-icon'></image>
+        客服
+      </view>
+      <view class='fl'>
+        <image src='/image/737460001186229821.png' class='commodity-foot-icon'></image>
+        收藏
+      </view>
+    </view>
+    <view class='fl commodity-foot-view'>加入购物车</view>
+    <view class='fl commodity-foot-view'>立即订货</view>
+  </view>
+
+  <!-- 加入购物车/立即购买弹框  -->
+  <view class='commodity-tan' style='display:none'>
+    <view class='commodity-tan-content'>
+      <view class='commodity-tan-contents'>
+        <view class='commodity-tan-content-top clearfix'>
+          <view class='fl commodity-tan-content-top-img'>
+            <image src=''></image>
+          </view>
+          <view class='fl commodity-tan-content-top-text'>
+            ￥100
+          </view>
+        </view>
+        <view class='commodity-tan-content-text'>
+          <view class='commodity-tan-content-title'>
+            颜色
+          </view>
+          <view class='commodity-tan-content-ul clearfix'>
+            <view class='fl commodity-tan-content-ul-act'>蓝色</view>
+            <view class='fl'>蓝色</view>
+            <view class='fl'>蓝色</view>
+            <view class='fl'>蓝色</view>
+          </view>
+        </view>
+        <view class='commodity-tan-foot clearfix'>
+          <view class='fl commodity-tan-foot-l'>
+            购买数量
+          </view>
+          <view class='fr commodity-tan-foot-r'>
+            <view class='fl'>-</view>
+            <view class='fl'>1</view>
+            <view class='fl'>+</view>
+          </view>
+        </view>
+      </view>
+      <view class='commodity-tan-btn'>确定</view>
+    </view>
+  </view>
+   <!-- 产品配件弹框  -->
+  <view class='commodity-tan'>
+    <view class='commodity-tan-content'>
+      <view class='commodity-tan-contents'>
+        <view class='commodity-tan-content-top clearfix'>
+          <view class='fl commodity-tan-content-top-img'>
+            <image src=''></image>
+          </view>
+          <view class='fl commodity-tan-content-top-text'>
+            ￥100
+          </view>
+        </view>
+        <view class='commodity-tan-content-text'>
+          <view class='commodity-tan-content-title'>
+            颜色
+          </view>
+          <view class='commodity-tan-content-ul clearfix'>
+            <view class='fl commodity-tan-content-ul-act'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+          </view>
+        </view>
+        <view class='commodity-tan-content-text'>
+          <view class='commodity-tan-content-title'>
+            颜色
+          </view>
+          <view class='commodity-tan-content-ul clearfix'>
+            <view class='fl commodity-tan-content-ul-act'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+          </view>
+        </view>
+        <view class='commodity-tan-content-text'>
+          <view class='commodity-tan-content-title'>
+            颜色
+          </view>
+          <view class='commodity-tan-content-ul clearfix'>
+            <view class='fl commodity-tan-content-ul-act'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+            <view class='fl'>内胆</view>
+          </view>
+        </view>
+        <view class='commodity-tan-foot clearfix'>
+          <view class='fl commodity-tan-foot-l'>
+            购买数量
+          </view>
+          <view class='fr commodity-tan-foot-r'>
+            <view class='fl'>-</view>
+            <view class='fl'>1</view>
+            <view class='fl'>+</view>
+          </view>
+        </view>
+      </view>
+      <view class='commodity-tan-btn'>确定</view>
+    </view>
+  </view>
+</view>

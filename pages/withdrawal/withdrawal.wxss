@@ -1,0 +1,57 @@
+/* pages/withdrawal/withdrawal.wxss */
+page{
+background:#f6f6f6;
+}
+.wrapper{
+  width:690rpx;
+  height:600rpx;
+  background: #fff;
+  margin:29rpx auto;
+  position: relative;
+}
+.wrapper .title{
+  height:129rpx;
+  line-height: 129rpx;
+  padding-left:62rpx;
+  border-bottom:2rpx solid #f2f2f2;
+}
+.wrapper .title .title-text{
+  width:213rpx;
+  height:29rpx;
+  font-size: 30rpx;
+  color:#222222;
+}
+.wrapper .byCash{
+  width:446rpx;
+  height:163rpx;
+  padding:0 60rpx;
+  position: relative;
+  top:40rpx;
+}
+.wrapper .byCash .line{
+  width:570rpx;
+  height:2rpx;
+  background: #f2f2f2;
+  position: absolute;
+  bottom:0;
+}
+.wrapper .byCash .flag{
+  position: absolute;
+  bottom:22rpx;
+}
+.wrapper .byCash .byCash-num{
+  font-size: 30rpx;
+  color:#222222;
+}
+.wrapper .btn{
+  width:400rpx;
+  height:70rpx;
+  background: #f5141b;
+  line-height: 70rpx;
+  color:#fff;
+  font-size:30rpx;
+  text-align: center;
+  position: absolute;
+  left:145rpx;
+  bottom:81rpx;
+}

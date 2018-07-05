@@ -1,0 +1,62 @@
+
+
+.login{
+  padding-top: 66rpx;
+}
+.login .content{
+  display: flex;
+  margin: 0 80rpx;
+  margin-bottom: 50rpx;
+}
+.login .content .text{
+  width: 182rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #222;
+  line-height: 80rpx;
+  margin-right: 70rpx;
+  text-align: center;
+}
+.login .content .content-input{
+  width: 410rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  border: 1rpx solid #eee;
+}
+.login .content .content-input input{
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+}
+
+
+.login .forget-btn{
+  font-size: 26rpx;
+  color: #666;
+  text-align: right;
+  margin-right: 100rpx;
+  margin-top: 60rpx;
+}
+
+.login .login-btn{
+  font-size: 30rpx;
+  color: #fff;
+  background-color: #f5141b;
+  width: 400rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 90rpx; 
+}
+
+.login .register-btn{
+  font-size: 30rpx;
+  color: #f4a110;
+  text-align: center;
+  margin-top: 80rpx;
+}

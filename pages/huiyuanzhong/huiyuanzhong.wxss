@@ -1,0 +1,43 @@
+/* pages/huiyuanzhong/huiyuanzhong.wxss */
+.huiyuanzhong-top{
+  padding: 0 50rpx;
+  line-height: 100rpx;
+  color: #f4a110;
+  font-size: 30rpx;
+  border-bottom: 20rpx solid #f6f6f6;
+}
+.huiyuanzhong-content{
+  line-height: 100rpx;
+  color: #f5141b;
+  font-size: 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+  height: 100rpx;
+  overflow: hidden;
+}
+.huiyuanzhong-content-icon{
+  width: 43rpx;
+  height: 43rpx;
+  margin-top: 28rpx;
+}
+.huiyuanzhong-content-title{
+  padding: 0 50rpx;
+}
+.huiyuanzhong-content-xia{
+  color: #000;
+  background: #f6f6f6;
+  padding: 0 50rpx;
+  height: 100rpx;
+  overflow: hidden;
+}
+
+.auto{
+  height: auto;
+}
+.huiyuanzhong-content-text{
+  line-height: 80rpx;
+  font-size: 24rpx;
+}
+.huiyuanzhong-content-bor{
+  border-top: 1px solid #fff;
+  border-bottom:1px solid #fff;
+}

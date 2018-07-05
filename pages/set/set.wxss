@@ -1,0 +1,27 @@
+
+
+.sets{
+  margin-top: 20rpx;
+}
+.sets .set{
+  display: flex;
+  margin: 0 20rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+
+}
+.sets .set .set-text{
+  font-size: 28rpx;
+  color: #222;
+  margin-left: 12rpx;
+}
+.sets .set .set-icon{
+  flex: 1;
+  text-align: right;
+  margin-right: 5rpx;
+}
+.sets .set .set-icon image{
+  width: 15rpx;
+  height: 30rpx;
+}

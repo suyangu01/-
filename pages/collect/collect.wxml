@@ -1,0 +1,26 @@
+
+<view class="collect">
+  <view class="commoditys">
+    <view class="summation">
+      <view class="text">共<text>30</text>个商品</view>
+      <view class="compile">编辑</view>
+    
+    </view>
+    <view class="commodity" wx:for="{{commodityList}}">
+      <view class="commodity-img">
+        <image src="{{item.image}}"></image>
+      </view>
+      <view class="commodity-texts">
+          <view class="commodity-title">{{item.title}}</view>
+          <view class="commodity-type">{{item.genre}}</view>
+          <view class="commodity-price">￥<text>{{item.price}}</text></view>
+      </view>
+
+      <view class="delete">
+        <image src="/static/images/checked_b.png"></image>
+      </view>
+      
+    </view>
+  </view>
+
+</view>

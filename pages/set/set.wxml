@@ -1,0 +1,23 @@
+
+
+<view class="sets">
+  <view class="set">
+    <view class="set-text">修改头像</view>
+    <view class="set-icon">
+      <image src="/static/images/right@2x.png"></image>
+    </view>
+  </view>
+  <view class="set">
+    <view class="set-text">设置密码</view>
+    <view class="set-icon">
+      <image src="/static/images/right@2x.png"></image>
+    </view>
+  </view>
+  <view class="set">
+    <view class="set-text">更改手机号码</view>
+    <view class="set-icon">
+      <image src="/static/images/right@2x.png"></image>
+    </view>
+  </view>
+
+</view> 

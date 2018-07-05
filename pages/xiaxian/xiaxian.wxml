@@ -1,0 +1,78 @@
+<!--pages/huiyuanzhong/huiyuanzhong.wxml-->
+<view class='huiyuanzhong'>
+  <view class='huiyuanzhong-content clearfix {{num==0?"auto":""}}' bindtap='show' id='0'>
+    <view class='clearfix huiyuanzhong-content-title'>
+      <view class='fl '>一级分销人员</view>
+      <image class='fr huiyuanzhong-content-icon-f' src='/static/images/right@2x.png'></image>
+    </view>
+    <view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==0?"auto":""}}' catchtap='san' data-num="0" id="0">
+        <view class='clearfix'>
+          <view class='fl '>111111111</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==1?"auto":""}}' catchtap='san' id="1">
+        <view class='clearfix'>
+          <view class='fl '>222222</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+    </view>
+  </view>
+  <view class='huiyuanzhong-content clearfix {{num==1?"auto":""}}' bindtap='show' id='1'>
+    <view class='clearfix huiyuanzhong-content-title'>
+      <view class='fl '>二级分销人员</view>
+      <image class='fr huiyuanzhong-content-icon-f' src='/static/images/right@2x.png'></image>
+    </view>
+    <view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==0?"auto":""}}' catchtap='san' data-num="0" id="0">
+        <view class='clearfix'>
+          <view class='fl '>4544564561</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==1?"auto":""}}' catchtap='san' id="1">
+        <view class='clearfix'>
+          <view class='fl '>54654546546465</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+    </view>
+  </view>
+
+  <view class='huiyuanzhong-content clearfix {{num==2?"auto":""}}' bindtap='show' id='2'>
+    <view class='clearfix huiyuanzhong-content-title'>
+      <view class='fl '>三级分销人员</view>
+      <image class='fr huiyuanzhong-content-icon-f' src='/static/images/right@2x.png'></image>
+    </view>
+    <view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==0?"auto":""}}' catchtap='san' data-num="0" id="0">
+        <view class='clearfix'>
+          <view class='fl '>111111111</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==1?"auto":""}}' catchtap='san' id="1">
+        <view class='clearfix'>
+          <view class='fl '>222222</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+
+
+      </view>
+    </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,57 @@
+/* pages/classification/classification.wxss */
+.index-sou{
+  width: 590rpx;
+  margin: 35rpx auto;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 5rpx;
+  background: #f2f2f2;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  position: relative;
+}
+.index-sou-icon{
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:27rpx;
+}
+.classificayion-content{
+  border-top: 1px solid #f2f2f2;
+}
+.classificayion-content-l{
+  width: 170rpx;
+  border-right: 1px solid #f2f2f2;
+  height: 89vh;
+  overflow-y: auto;
+}
+.classificayion-content-l::-webkit-scrollbar{display: none}
+.classificayion-content-l view{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.classificayion-content-r{
+  width: 579rpx;
+  height: 89vh;
+  overflow-y: auto;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+}
+/* .classificayion-content-r::-webkit-scrollbar{display: none} */
+.classificayion-content-r view{
+  width: 140rpx;
+  margin: 0rpx 0rpx 40rpx 35rpx;
+  text-align:center;
+  font-size: 24rpx;
+}
+.classificayion-content-r-img{
+  width: 140rpx;
+  height: 140rpx;
+  margin-bottom: 16rpx;
+  background: #000;
+}

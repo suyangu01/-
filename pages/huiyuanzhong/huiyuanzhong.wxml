@@ -1,0 +1,82 @@
+<!--pages/huiyuanzhong/huiyuanzhong.wxml-->
+<view class='huiyuanzhong'>
+  <view class='huiyuanzhong-top'>
+    已加盟商品 2 个
+  </view>
+  <view class='huiyuanzhong-content clearfix {{num==0?"auto":""}}' bindtap='show' id='0'>
+    <view class='clearfix huiyuanzhong-content-title'>
+      <view class='fl '>厨房电器</view>
+      <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>  
+    </view>
+    <view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==0?"auto":""}}' catchtap='san' data-num="0" id="0">
+        <view class='clearfix'>
+          <view class='fl '>厨房电器</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+        <view class='huiyuanzhong-content-bor'>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+        </view>
+        
+      </view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==1?"auto":""}}' catchtap='san' id="1">
+        <view class='clearfix'>
+          <view class='fl '>厨房电器</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+        <view class='huiyuanzhong-content-bor'>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+  <view class='huiyuanzhong-content clearfix {{num==1?"auto":""}}' bindtap='show' id='1'>
+    <view class='clearfix huiyuanzhong-content-title'>
+      <view class='fl '>厨房电器</view>
+      <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>  
+    </view>
+    <view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==0?"auto":""}}' catchtap='san' data-num="0" id="0">
+        <view class='clearfix'>
+          <view class='fl '>厨房电器</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+        <view class='huiyuanzhong-content-bor'>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+        </view>
+        
+      </view>
+      <view class='clearfix huiyuanzhong-content-xia {{nums==1?"auto":""}}' catchtap='san' id="1">
+        <view class='clearfix'>
+          <view class='fl '>厨房电器</view>
+          <image class='fr huiyuanzhong-content-icon' src='/image/260153012991719421.png'></image>
+        </view>
+        <view class='huiyuanzhong-content-bor'>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+          <view class='huiyuanzhong-content-text'>
+            NS-3013 （有效时间至：2018/08/30）
+          </view>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+</view>

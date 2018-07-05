@@ -1,0 +1,60 @@
+<!--pages/distribution.wxml-->
+<view class="distribution">
+     <view class="title">
+       <view class="disMoney">分销佣金：</view>
+       <view class="money">￥6000</view>
+       <view class="changeMoney">提现</view>
+       <view class="downLine">我的下线</view>
+     </view>
+     <view class="titleInfo">
+      <view class="time">2017年6月</view>
+      <view class="commission">佣金￥5000</view>
+      <view class="byMoney">提现￥3000</view>
+      <view class="downIocn">
+        <image src="/static/images/down@2x.png"></image>
+      </view>
+     </view>
+     <!-- 标题 -->
+     <view class="barTitle">
+      <view class="barTitle-info">全部</view>
+      <view class="barTitle-info">佣金</view>
+      <view class="barTitle-info">提现</view>
+     </view>
+
+     <!--列表循环-->
+     <view class="itemList">
+      <view class="time">
+       <view class="timeYear">2017-10-30</view>
+       <view class="timeDate"> 20:50</view>
+      </view>
+      <view class="withdrawal">
+       <text class="addOrLose">+</text>
+       <text class="monkeyNum">300</text>
+      </view>
+     </view>
+
+     <!--列表循环-->
+     <view class="itemList">
+      <view class="time">
+       <view class="timeYear">2017-10-30</view>
+       <view class="timeDate"> 20:50</view>
+      </view>
+      <view class="withdrawal">
+       <text class="addOrLose">+</text>
+       <text class="monkeyNum">300</text>
+      </view>
+     </view>
+
+      <!--列表循环-->
+     <view class="itemList">
+      <view class="time">
+       <view class="timeYear">2017-10-30</view>
+       <view class="timeDate"> 20:50</view>
+      </view>
+      <view class="withdrawal">
+       <text class="addOrLose"> - </text>
+       <text class="monkeyNum">300</text>
+      </view>
+     </view>
+    
+</view>

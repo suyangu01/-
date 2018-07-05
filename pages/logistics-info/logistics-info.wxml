@@ -1,0 +1,26 @@
+<view class="logistics-info">
+  <view class="info">
+    <view class="expressage-name">顺丰快递</view>
+    <view class="expressage-number">运单号：
+      <text>8005256543465463</text>
+    </view>
+    <view class="expressage-phone">官方电话：
+      <text>95338</text>
+    </view>
+  </view>
+
+
+  <view class='br'></view>
+  <block wx:for="{{wuliu}}" wx:key="index"> 
+    <view class='order'>
+      <view class='icon {{index === 0?"in":"no_in"}}'></view>
+      <view class='logistics_centent page_clu'>
+        <text class="title">{{item}},发往深圳太远客运中转部</text>
+        <text> {{wuliu.phone}}2017-12-11 23:16:12</text>
+      </view>
+      <view class='on'></view>
+    </view>
+  </block>
+  <view class='icon no_in'></view>
+
+</view>

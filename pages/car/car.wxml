@@ -1,0 +1,56 @@
+
+<view class="car">
+
+  <view class="commoditys">
+
+    <view class="commodity" wx:for="{{commodityList}}" bindlongpress="showClick" data-index="{{index}}">
+      <view class="icon">
+        <image src="{{item.icon}}"></image>
+      </view>
+      <view class="commodity-img">
+        <image src="{{item.image}}"></image>
+      </view>
+
+      <view class="commodity-texts">
+          <view class="commodity-title">{{item.title}}</view>
+          <view class="commodity-type">{{item.genre}}</view>
+          <view class="commodity-price">￥<text>{{item.price}}</text></view>
+      </view>
+
+      <view class="quantity">
+        <view class="subtract-btn btn" bindtap="subtractClick">-</view>
+        <view class="btn number">{{quantity}}</view>
+        <view class="add-btn btn" bindtap='addClick'>+</view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="footer">
+    <view class="check-all">
+      <view class="all-icon">
+        <image src="/static/images/checked_b.png"></image>
+      </view>
+      <view class="text">全选</view>
+    </view>
+    <view class="overall">合计：￥<text>0.00</text></view>
+    <view class="btn-account">结算</view>
+  </view>
+
+
+  <!--弹窗  -->
+   <view class="popup-box {{popup ? 'show' : 'hidden'}}">
+    <view class="popup">
+      <view class="popup-title">确定要删除该商品吗？</view>
+
+      <view class="btns">
+        <view class="cancel-btn"  bindtap='hiddenClick'>再想想</view>
+        <view class="confirm-btn">确定</view>
+      </view>
+    
+    </view>
+
+
+  </view>
+
+</view>

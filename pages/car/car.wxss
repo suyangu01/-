@@ -1,0 +1,183 @@
+
+
+.car{
+
+}
+
+.car .commoditys{
+  border-top: 1rpx solid #f2f2f2;
+}
+.commoditys .commodity{
+  display: flex;
+  margin: 0 10rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+  position: relative;
+
+}
+.commoditys .commodity .icon{
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  margin-top: 60rpx;
+}
+
+.commoditys .commodity .icon image{
+  width: 26rpx;
+  height: 26rpx;
+  /* padding-bottom: 20rpx; */
+}
+
+.commoditys .commodity .commodity-img{
+  width: 200rpx;
+  height: 156rpx;
+}
+
+.commoditys .commodity .commodity-img image{
+  width: 200rpx;
+  height: 156rpx;
+
+}
+
+.commodity .commodity-texts{
+  margin: 12rpx 0 0 20rpx;
+  line-height: 30rpx;
+}
+
+.commodity .commodity-title{
+  font-size: 28rpx;
+  color: #151515;
+}
+
+.commodity .commodity-type{
+  font-size: 20rpx;
+  color: #4f4e4e;
+  margin: 20rpx 0 30rpx 5rpx;
+}
+
+.commodity .commodity-price{
+  font-size: 30rpx;
+  color: #e93c40;
+}
+
+.commodity .quantity{
+  position: absolute;
+  display: flex;
+  font-size: 24rpx;
+  color: #151515;
+  bottom: 40rpx;
+  right: 20rpx;
+}
+
+.commodity .quantity .btn{
+  width: 50rpx;
+  height: 40rpx;
+  background-color: #f1f0f0;
+  text-align: center;
+  line-height: 40rpx;
+}
+
+
+.footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100rpx;
+  border: 2rpx solid #f6f6f6;
+  width: 100%;
+}
+.footer .check-all{
+  display: flex;
+}
+.footer .check-all .all-icon{
+  margin: 30rpx 20rpx 0 32rpx;
+}
+.footer .check-all .all-icon image{
+  width: 26rpx;
+  height: 26rpx;
+
+}
+
+.footer .check-all .text{
+  font-size: 28rpx;
+  color: #505050;
+  line-height: 100rpx;
+}
+
+.footer .overall{
+  font-size: 28rpx;
+  color: #e93c40;
+  flex: 1;
+  text-align: right;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+}
+
+.footer .btn-account{
+  font-size: 32rpx;
+  color: #fff;
+  width: 186rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #f5141b;
+  text-align: center;
+}
+
+
+
+/*弹出窗口  */
+.popup-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 11;
+}
+.popup-box .popup{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 430rpx;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.popup .popup-title{
+  font-size: 30rpx;
+  color: #222;
+  text-align: center;
+  /* padding: 34rpx 0 36rpx; */
+  line-height: 120rpx;
+  padding: 10rpx 0;
+}
+
+.popup .btns{
+  font-size: 30rpx;
+  display: flex;
+  line-height: 100rpx;
+  color: #fff;
+}
+.popup .cancel-btn{
+  width: 215rpx;
+  height: 100rpx;
+  background-color: #999999;
+  text-align: center;
+}
+.popup .confirm-btn{
+  flex: 1;
+  height: 100rpx;
+  background-color: #f5141b;
+  text-align: center;
+}
+
+
+
+.hidden{
+  visibility: hidden;
+}
+.show{
+  visibility: show;
+}

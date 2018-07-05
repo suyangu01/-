@@ -1,0 +1,77 @@
+
+
+.collect{
+
+}
+
+.collect .commoditys{
+  border-top: 2rpx solid #f2f2f2;
+}
+.commoditys .summation{
+  font-size: 26rpx;
+  color: #666;
+  display: flex;
+  margin: 0 10rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+  line-height: 60rpx;
+}
+.commoditys .summation .text{
+  margin-left: 20rpx;
+}
+.commoditys .summation .compile{
+  flex: 1;
+  text-align: right;
+  margin-right: 20rpx;
+}
+.commoditys .commodity{
+  display: flex;
+  margin: 0 10rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+  position: relative;
+
+}
+
+.commoditys .commodity:last-child{
+  border:none;
+}
+.commoditys .commodity .commodity-img{
+  width: 200rpx;
+  height: 156rpx;
+}
+
+.commoditys .commodity .commodity-img image{
+  width: 200rpx;
+  height: 156rpx;
+
+}
+
+.commodity .commodity-texts{
+  margin: 12rpx 0 0 20rpx;
+  line-height: 30rpx;
+}
+
+.commodity .commodity-title{
+  font-size: 28rpx;
+  color: #151515;
+}
+
+.commodity .commodity-type{
+  font-size: 20rpx;
+  color: #4f4e4e;
+  margin: 20rpx 0 30rpx 5rpx;
+}
+
+.commodity .commodity-price{
+  font-size: 30rpx;
+  color: #e93c40;
+}
+
+
+.commodity .delete image{
+  width: 35rpx;
+  height: 37rpx;
+  position: absolute;
+  right: 56rpx;
+  top: 80rpx;
+}

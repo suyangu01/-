@@ -1,0 +1,31 @@
+<view class="evaluate">
+  <view class="give">
+    <view class="give-text">总体</view>
+    <view class="give-icon">
+      <image src="/static/images/give_b.png"></image>
+      <image src="/static/images/give_a.png"></image>
+      <image src="/static/images/give_a.png"></image>
+      <image src="/static/images/give_a.png"></image>
+      <image src="/static/images/give_a.png"></image>
+    </view>
+  </view>
+
+  <view class='pin-content'>
+    <view class='pin-content-textarea'>
+      <textarea placeholder='宝贝满足你的期待吗？说说你的感受吧~'></textarea>
+    </view>
+    <view>
+      <block wx:for="{{img}}" wx:key="this">
+        <view class='fl'>
+          <image src='/static/images/uploading.png' class='pin-jia' bindtap='shang' id='{{index}}' wx:if='{{item}}'></image>
+        </view>
+      </block>
+      <image src='/static/images/uploading.png' class='pin-jia' bindtap='tap'></image>
+    </view>
+  </view>
+  <button class='pin-btn'>
+    发布
+  </button>
+
+
+</view>

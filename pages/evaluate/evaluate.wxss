@@ -1,0 +1,66 @@
+
+.evaluate{
+
+}
+.evaluate .give{
+  display: flex;
+  border-top: 1rpx solid #f2f2f2;
+  border-bottom: 1rpx solid #d2d2d2;
+  padding: 30rpx;
+}
+.evaluate .give .give-text{
+  font-size: 28rpx;
+  color: #222;
+}
+.evaluate .give .give-icon{
+  margin-left: 30rpx;
+  
+}
+.evaluate .give .give-icon image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+
+
+
+.pin-content{
+  padding: 32rpx;
+  background: #fff;
+  border-bottom: 1px solid rgb(243,243,243);
+}
+.pin-content-textarea{
+  width: 100%;
+  height: 150rpx;
+}
+.pin-content-textarea textarea{
+  width: 100%;
+  height: 100%;
+  font-size: 26rpx;
+  /* border: 1px solid #000; */
+  margin-bottom: 20rpx;
+}
+.pin-jia{
+  width: 160rpx;
+  height: 160rpx;
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+}
+.pin-ti{
+  line-height: 74rpx;
+  text-align: right;
+  font-size: 26rpx;
+  background: #fff;
+  padding-right: 35rpx;
+  color: #8f8f8f;
+}
+.pin-btn{
+  width:329rpx;
+  height:80rpx;
+  line-height:80rpx;
+  text-align:center;
+  background:#c30026;
+  color:#fff;
+  font-size:29rpx;
+  margin-top:50rpx;
+}

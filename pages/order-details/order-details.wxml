@@ -1,0 +1,63 @@
+
+<view class="order-details">
+<!--货品状态  -->
+    <view class="order-state">
+      <view class="bgm">
+        <image src="/static/images/order-bgm.png"></image>
+      </view>
+      <view class="state-text">卖家已发货</view>
+    </view>
+  <!--买家收货信息  -->
+    <view class="take-info">
+      <view class="info">
+        <view class="take-icon">
+           <image src="/static/images/take.png"></image>
+        </view>
+        <view class="consignee txtColor">收货人：霸王龙</view>
+        <view class="take-phone txtColor">电话：13722358135</view>
+      </view>
+      <view class="take-site txtColor">收货地址：广东省广州市海珠区</view>
+    </view>
+
+    <!--商品  -->
+  <view class="commodity-info">
+    <view class="commodity-img">
+      <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4198465617,4259583419&fm=200&gp=0.jpg"></image>
+    </view>
+      <view class="texts">
+        <view class="commodity-title txtColor">壁挂纯水机壁挂纯水机NS-B6-75C</view>
+        <view class="commodity-type">有趣味</view>
+        <view class="commodity-price">￥<text>27.90</text></view>
+        <view class="commodity-quantity">x <text>1</text></view>
+      </view>
+  </view>
+
+
+  <view class="payment">
+    <view class="payment-text">实付款</view>
+    <view class="payment-price">￥<text>27.90</text></view>
+  </view>
+
+  <view class="order-btn">
+    <view class="examine-btn">查看物流</view>
+    <view class="notarize-btn">查看物流</view>
+  
+  </view>
+
+
+  <view class="voucher">
+    <view class="voucher-title">上传凭证</view>
+    <view class="voucher-img" bindtap='one'>
+      <image src="/static/images/uploading.png"></image>
+    </view>
+  </view>
+
+<!--订单信息  -->
+  <view class="order-info">
+    <view class="order-number order-text">订单编号：<text>1546465674345</text></view>
+    <view class="order-text">创建时间：<text>2018-10-25  11:30:50</text></view>
+    <view class="order-number order-text">订单编号：<text>1546465674345</text></view>
+    <view class="order-text">创建时间：<text>2018-10-25  11:30:50</text></view>
+  </view>
+
+</view>

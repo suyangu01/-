@@ -1,0 +1,257 @@
+/* pages/commodity/commodity.wxss */
+.commodity-image{
+  width: 100%;
+  height: 600rpx;
+  background: #000;
+}
+.commodity-image image{
+  width: 100%;
+  height: 100%;
+}
+.commodity-top-content{
+  padding: 0 30rpx;
+}
+.commodity-top-title-l{
+  line-height: 68rpx;
+  width: 90%;
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.commodity-top-title-r{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 20rpx;
+}
+.commodity-top-money-one{
+  font-size: 38rpx;
+  color: #e60012;
+  margin-right: 30rpx;
+}
+.commodity-top-money-two{
+  color: #f4a110;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+.commodity-top-money-three{
+  font-size: 24rpx;
+  color: #818080;
+  margin-top: 12rpx;
+}
+.commodity-top-bottom{
+  padding: 20rpx 20rpx 0;
+  background: #f2f2f2;
+  margin-top: 30rpx;
+}
+.commodity-top-bottom-content{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 0 auto;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  background: linear-gradient(rgb(246,215,132), rgb(244,182,16));
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 28rpx;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+}
+.commodity-top-bottom-btn{
+  width: 150rpx;
+  height: 50rpx;
+  border:1px solid #fff;
+  line-height:50rpx;
+  text-align:center;
+  margin-top: 24rpx;
+}
+.commodity-top-xz{
+  padding: 0 20rpx;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.commodity-top-xz-text{
+  height: 100rpx;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  border-bottom:1px solid #f2f2f2;
+  padding: 0 20rpx;
+}
+.commodity-top-xz-icon{
+  width: 43rpx;
+  height: 43rpx;
+  margin-top: 30rpx;
+}
+
+/*商品评价  */
+.commodity-pin{
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.commodity-pin-top{
+  line-height: 100rpx;
+  height: 100rpx;
+  font-size: 28rpx;
+   margin: 0 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.commodity-pin-content{
+  padding: 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.commodity-pin-content-name{
+  font-size: 26rpx;
+  margin-bottom: 30rpx;
+}
+.commodity-pin-content-names{
+  margin-right: 20rpx;
+}
+.commodity-pin-content-time{
+  color: #999999;
+}
+.commodity-pin-content-text{
+  font-size: 24rpx;
+}
+.commodity-pin-content-image image{
+  width: 170rpx;
+  height: 170rpx;
+  margin-top: 15rpx;
+  margin-right: 30rpx;
+  background: #000;
+}
+.commodity-pin-btn{
+  width: 140rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  border: 1px solid #999999;
+  margin: 20rpx auto 30rpx;
+  color: #999999;
+  border-radius: 10rpx;
+}
+.commodity-bottom{
+  margin-bottom: 100rpx;
+}
+.red{
+  color: red;
+}
+
+/*底部  */
+.commodity-foot{
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+.commodity-foot-view{
+  width: 33.3%;
+  height: 100rpx;
+  color: #fff;
+  text-align: center;
+}
+.commodity-foot-view:nth-child(2){
+  background: #f4a110;
+  font-size: 32rpx;
+}
+.commodity-foot-view:nth-child(3){
+  background: #f5141b;
+  font-size: 32rpx;
+}
+.commodity-foot-view-one view{
+  line-height: 2em;
+  font-size: 22rpx;
+  color: #626262;
+  width: 50%;
+  padding-top: 15rpx;
+  box-sizing:border-box;
+}
+.commodity-foot-icon{
+  width: 44rpx;
+  height: 40rpx;
+  margin: auto;
+  display: block;
+}
+.commodity-tan{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.4)
+}
+.commodity-tan-contents{
+  padding: 40rpx 30rpx 0;
+
+}
+.commodity-tan-content{
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-sizing:border-box;
+}
+.commodity-tan-content-top{
+  margin-bottom: 25rpx;
+}
+.commodity-tan-content-top-img{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 50rpx;
+  background: #000;
+}
+.commodity-tan-content-top-img image{
+  width: 100%;
+  height: 100%;
+}
+.commodity-tan-content-top-text{
+  line-height:140rpx;
+  font-size: 30rpx;
+  color: #f5141b;
+}
+.commodity-tan-content-title{
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+.commodity-tan-content-ul view{
+  padding: 14rpx 16rpx;
+  font-size: 24rpx;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+  background: #f2f2f2;
+}
+.commodity-tan-content-ul .commodity-tan-content-ul-act{
+  background: #f5141b;
+  color: #fff;
+}
+
+.commodity-tan-foot{
+  margin-bottom: 30rpx;
+  border-top:1px solid #f2f2f2;
+  padding-top: 20rpx;
+}
+.commodity-tan-foot-l{
+  font-size: 30rpx;
+  line-height: 60rpx;
+}
+.commodity-tan-foot-r{
+  background: #f1f0f0;
+  font-size: 24rpx;
+}
+.commodity-tan-foot-r view{
+  padding: 15rpx 22rpx;
+}
+.commodity-tan-btn{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #f5141b;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+}
+.border-bottom{
+  border-bottom:1px solid #f2f2f2;
+}

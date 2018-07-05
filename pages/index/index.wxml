@@ -1,0 +1,258 @@
+<!--pages/a/a.wxml-->
+<!--index.wxml-->
+<view class="swiper-tab">
+  <!-- <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">哈哈</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">呵呵</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">嘿嘿</view> -->
+  <!--  搜索条  -->
+  <view class='index-sou'>
+    <navigator url="/pages/search/search"><view>请输入要搜索的商品</view></navigator>
+    <image class='index-sou-icon' src='/image/sousuo.png'></image>
+  </view>
+  <!--  头部导航  -->
+  <scroll-view scroll-x class='index-scroll'>
+    <view class="{{currentTab==0 ? 'index-scroll-act' : ''}}" data-current="0" bindtap="swichNav"> 推荐</view>
+    <view class="{{currentTab==1 ? 'index-scroll-act' : ''}}" data-current="1" bindtap="swichNav"> 厨房电器</view>
+    <view class="{{currentTab==2 ? 'index-scroll-act' : ''}}" data-current="2" bindtap="swichNav"> 烟机灶具</view>
+    <view class="{{currentTab==3 ? 'index-scroll-act' : ''}}" data-current="3" bindtap="swichNav"> 大家电</view>
+    <view class="{{currentTab==4 ? 'index-scroll-act' : ''}}" data-current="4" bindtap="swichNav"> 厨房电器</view>
+    <view class="{{currentTab==5 ? 'index-scroll-act' : ''}}" data-current="5" bindtap="swichNav"> 烟机灶具</view>
+  </scroll-view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight}}px" bindchange="bindChange">
+
+  <swiper-item>
+    <!--  推荐内容  -->
+    <view class='index-content-view'>
+      <!--轮播图  -->
+      <swiper indicator-dots="true" autoplay="true" circular class='swiper'>
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+      <!--  推荐  -->
+      <view class='index-tui clearfix'>
+
+          <view class='index-tui-l fl'>
+            <navigator>
+              <view class='index-tui-title'>限时秒杀</view>
+            <view class='index-tui-time'>
+              本场还剩
+              <text>14</text>:
+              <text>43</text>:
+              <text>59</text>
+            </view>
+            <image src='' class='index-tui-l-img'></image>
+            </navigator>
+          </view>
+        
+
+        <view class='index-tui-r fr'>
+          <view class='index-tui-r-top clearfix'>
+            <view class='fl'>
+              <view class='index-tui-title'>热门商品</view>
+              <view class='index-tui-time'>爆款热卖</view>
+            </view>
+            <image src='' class='index-tui-r-img fr'></image>
+          </view>
+          <view class='index-tui-r-bottom'>
+            <view class='fl'>
+              <view class='index-tui-title'>热门商品</view>
+              <view class='index-tui-time'>爆款热卖</view>
+            </view>
+            <image src='' class='index-tui-r-img fr'></image>
+          </view>
+        </view>
+      </view>
+      <!--商品列表  -->
+      <view>
+        <view class='index-shop-banner'>
+          <image src='/image/1.png'></image>
+          <view class='index-shop-banner-text'>
+            <text>大家电</text>
+          </view>
+        </view>
+        <view class='index-shop-content clearfix'>
+            <view class='fl index-shop-content-view'>
+              <navigator url="/pages/commodity/commodity">
+                <view class='index-shop-content-img'>
+                <image src=''></image>
+              </view>
+              <view class='index-shop-content-text'>
+                <view class='index-shop-content-title'>
+                  壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+                </view>
+                <view class='index-shop-content-money'>
+                  ￥36.80
+                </view>
+                <view class='index-shop-content-hui'>
+                  会员价:￥30.80
+                </view>
+              </view>
+              </navigator>
+            </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+      <!-- <view class='index-shop-banner'>
+          <image src='/image/1.png'></image>
+          <view class='index-shop-banner-text'>
+            <text>大家电</text>
+          </view>
+        </view> -->
+      <view class='index-shop-content clearfix'>
+        <view class='fl index-shop-content-view'>
+          <view class='index-shop-content-img'>
+            <image src=''></image>
+          </view>
+          <view class='index-shop-content-text'>
+            <view class='index-shop-content-title'>
+              壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+            </view>
+            <view class='index-shop-content-money'>
+              ￥36.80
+            </view>
+            <view class='index-shop-content-hui'>
+              会员价:￥30.80
+            </view>
+          </view>
+        </view>
+        <view class='fl index-shop-content-view'>
+          <view class='index-shop-content-img'>
+            <image src=''></image>
+          </view>
+          <view class='index-shop-content-text'>
+            <view class='index-shop-content-title'>
+              壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+            </view>
+            <view class='index-shop-content-money'>
+              ￥36.80
+            </view>
+            <view class='index-shop-content-hui'>
+              会员价:￥30.80
+            </view>
+          </view>
+        </view>
+        <view class='fl index-shop-content-view'>
+          <view class='index-shop-content-img'>
+            <image src=''></image>
+          </view>
+          <view class='index-shop-content-text'>
+            <view class='index-shop-content-title'>
+              壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+            </view>
+            <view class='index-shop-content-money'>
+              ￥36.80
+            </view>
+            <view class='index-shop-content-hui'>
+              会员价:￥30.80
+            </view>
+          </view>
+        </view>
+        <view class='fl index-shop-content-view'>
+          <view class='index-shop-content-img'>
+            <image src=''></image>
+          </view>
+          <view class='index-shop-content-text'>
+            <view class='index-shop-content-title'>
+              壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+            </view>
+            <view class='index-shop-content-money'>
+              ￥36.80
+            </view>
+            <view class='index-shop-content-hui'>
+              会员价:￥30.80
+            </view>
+          </view>
+        </view>
+        <view class='fl index-shop-content-view'>
+          <view class='index-shop-content-img'>
+            <image src=''></image>
+          </view>
+          <view class='index-shop-content-text'>
+            <view class='index-shop-content-title'>
+              壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+            </view>
+            <view class='index-shop-content-money'>
+              ￥36.80
+            </view>
+            <view class='index-shop-content-hui'>
+              会员价:￥30.80
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+
+</swiper>

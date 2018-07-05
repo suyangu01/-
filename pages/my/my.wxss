@@ -1,0 +1,120 @@
+
+page{
+  background-color: #f2f2f2;
+}
+
+
+.my .header{
+  position: relative;
+  border-bottom: 20rpx solid #f2f2f2;
+  height: 440rpx;
+}
+.my .header .header-img{
+  padding: 0;
+}
+.my .header .header-img image{
+  width: 100%;
+  height: 440rpx;
+}
+.header .my-info{
+  position: absolute;
+  top: 50rpx;
+  left: 80rpx;
+  display: flex;
+}
+.header .my-info .info-logo image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.header .my-info .my-name{
+  font-size: 30rpx;
+  color: #fefefe;
+  margin: 50rpx 0 0 40rpx;
+
+}
+.header .set-icon{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 38rpx;
+  right: 60rpx;
+}
+.header .set-icon image{
+  width: 35rpx;
+  height: 33rpx;
+}
+
+
+/*按钮  */
+.header .btns{
+  width: 98%;
+  /* height: 175rpx; */
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  margin: 0 8rpx;
+  display: flex;
+  padding-top: 60rpx;
+  padding-bottom: 30rpx;
+}
+.header .btns .btn{
+  width: 120rpx;
+  font-size: 24rpx;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20rpx;
+}
+.header .btns .btn .btn-icon{
+  margin-left: 55%;
+  transform: translateX(-50%);
+}
+.header .btns .btn .btn-icon image{
+  width: 43rpx;
+  height: 50rpx;
+}
+.btns .btn .btn-text{
+  text-align: center;
+  /* margin-top: 25rpx; */
+}
+
+
+.content-lists{
+  background-color: #fff;
+  padding: 0 30rpx 30rpx 30rpx;
+}
+
+.content-lists .list{
+  border-bottom: 1rpx solid #f2f2f2;
+  height: 100rpx;
+  display: flex;
+}
+.content-lists .list:last-child{
+  border: none;
+}
+.content-lists .list .list-icon{
+  margin: 32rpx 25rpx 0;
+}
+.content-lists .list .list-icon image{
+  width: 40rpx;
+  height: 30rpx;
+}
+.content-lists .list .list-text{
+  font-size: 26rpx;
+  color: #333;
+  line-height: 100rpx;
+}
+.content-lists .list .list-icon-r{
+  flex: 1;
+  text-align: right;
+  margin-top: 34rpx;
+}
+.content-lists .list .list-icon-r image{
+  width: 15rpx;
+  height: 30rpx;
+
+}

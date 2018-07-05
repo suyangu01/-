@@ -1,0 +1,25 @@
+<!--pages/bill-detail/bill-detail.wxml-->
+<view class="bill">
+ <view class="money">佣金金额</view>
+ <view class="bill-num">￥300</view>
+</view>
+
+  <!--状态内容  -->
+
+  <view class="state">
+      <view class="state-msg">
+      <view class="status-left">当前状态</view>
+      <view class="status-right">已到账</view>
+      </view>
+
+      <view class="state-msg second">
+      <view class="status-left">来自</view>
+      <view class="status-right">甲乙丙</view>
+      </view>
+
+      <view class="state-msg">
+      <view class="status-left">到账时间</view>
+      <view class="status-right">2018-03-30 20：30:30</view>
+      </view>
+
+  </view>

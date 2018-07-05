@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order-details/order-details",
+    "pages/my-order/my-order",
+    "pages/affirm-order/affirm-order",
+    "pages/logistics-info/logistics-info",
+    "pages/evaluate/evaluate",
+    "pages/my/my",
+    "pages/car/car",
+    "pages/collect/collect",
+    "pages/huiyuanzhong/huiyuanzhong",
+    "pages/classification/classification",
+    "pages/commodity/commodity",
+    "pages/huiyuanReg/huiyuanReg",
+    "pages/member/member",
+    "pages/search/search",
+    "pages/xiaxian/xiaxian",
+    "pages/amend-password/amend-password",
+    "pages/set/set",
+    "pages/login/login",
+    "pages/bill-detail/bill-detail",
+    "pages/distribution/distribution",
+    "pages/register/register",
+    "pages/withdrawal/withdrawal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#f5141b",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/tabbar/index_a.png",
+        "selectedIconPath": "/static/images/tabbar/index_b.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "/static/images/tabbar/classification_a.png",
+        "selectedIconPath": "/static/images/tabbar/classification_b.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "/static/images/tabbar/car_a.png",
+        "selectedIconPath": "/static/images/tabbar/car_b.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/images/tabbar/me_a.png",
+        "selectedIconPath": "/static/images/tabbar/me_b.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

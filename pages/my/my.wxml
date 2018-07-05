@@ -1,0 +1,99 @@
+<view class="my">
+  <view class="header">
+
+    <view class="header-img">
+      <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1919145432,2033120677&fm=27&gp=0.jpg"></image>
+    </view>
+
+    <view class="my-info">
+      <view class="info-logo">
+        <image src="{{myLogoUrl}}" mode="aspectFill"></image>
+      </view>
+      <view class="my-name">霸王龙</view>
+    </view>
+
+    <view class="set-icon">
+      <image src="/static/images/set.png"></image>
+    </view>
+
+    <view class="btns">
+        <view class="btn" wx:for="{{btns}}" bindtap='switchOrder'>
+          <view class="btn-icon">
+            <image src='{{item.icon}}'></image>
+          </view>
+          <view class="btn-text">{{item.text}}</view>
+        </view>
+    </view>
+    <view class="border-b"></view>
+
+  </view>
+
+
+  <view class="content-lists">
+    <view class="list" bindtap='switchHuiYuan'>
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">会员中心</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    <view class="list" bindtap='switchCollect'>
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">我的收藏</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    <view class="list">
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">地址管理</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    <view class="list" bindtap='switchXiaXian'>
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">分销人员专区</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    <view class="list">
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">售后客服</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    <view class="list">
+      <view class="list-icon">
+        <image src="/static/images/btn-icon.png"></image>
+      </view>
+      <view class="list-text">关于我们</view>
+      <view class="list-icon-r">
+        <image src="/static/images/list-icon-r.png"></image>
+      </view>
+    </view>
+
+    
+
+  </view>
+  
+
+
+</view>

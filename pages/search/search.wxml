@@ -1,0 +1,99 @@
+<view class="search">
+  <!--  搜索条  -->
+  <view class='index-sou'>
+    <input type='text' class='index-sou-text' placeholder='搜索'></input>
+    <image class='index-sou-icon' src='/image/sousuo.png'></image>
+  </view>
+  <!--导航  -->
+  <view class='search-top clearfix'>
+    <view class='fl'>综合排序</view>
+    <view class='fl'>价格排序</view>
+    <view class='fl'>销量优先</view>
+  </view>
+  <!--商品列表  -->
+      <view>
+        
+        <view class='index-shop-content clearfix'>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+          <view class='fl index-shop-content-view'>
+            <view class='index-shop-content-img'>
+              <image src=''></image>
+            </view>
+            <view class='index-shop-content-text'>
+              <view class='index-shop-content-title'>
+                壁挂纯水机NS-B6-75C6壁挂纯水机NS-B6-75C6
+              </view>
+              <view class='index-shop-content-money'>
+                ￥36.80
+              </view>
+              <view class='index-shop-content-hui'>
+                会员价:￥30.80
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+</view>

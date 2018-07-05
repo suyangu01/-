@@ -1,0 +1,13 @@
+<!--pages/withdrawal/withdrawal.wxml-->
+<view class="wrapper">
+ <view class="title"><view class="title-text">提现到微信钱包</view>
+ </view>
+
+ <view class="byCash">
+  <view class="byCash-num">提现金额</view>
+  <view class="flag">￥</view>
+  <view class="line"></view>
+ </view>
+
+ <view class="btn">提现</view>
+</view>

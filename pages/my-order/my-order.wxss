@@ -1,0 +1,118 @@
+
+.order{
+
+}
+.order .navs{
+  font-size: 30rpx;
+  color: #666;
+  display: flex;
+  justify-content: space-around;
+  line-height: 86rpx;
+  border-bottom: 1rpx solid #d2d2d2;
+  text-align: center;
+}
+.order .navs view{
+  width: 100rpx;
+  height: 86rpx;
+}
+
+.navs-scroll-act{
+  color: #f5141b;
+  border-bottom: 2px solid #f5141b;
+}
+
+
+.order .commoditys{
+
+}
+.commoditys .commodity{
+  padding:0 10rpx 20rpx 10rpx; 
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.commoditys .commodity .order-state{
+  font-size: 26rpx;
+  color: #f5141b;
+  margin-left: 25rpx;
+  line-height: 60rpx;
+}
+.commodity .commodity-info{
+  /* width: 100%; */
+  background-color: #f6f6f6;
+  padding: 20rpx 30rpx;
+  display: flex;
+}
+.commodity .commodity-info .commodity-img image{
+  width: 200rpx;
+  height: 160rpx;
+}
+.commodity .commodity-info .commodity-texts{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  position: relative;
+}
+.commodity .commodity-info .commodity-title{
+  font-size: 28rpx;
+  color: #151515;
+}
+.commodity .commodity-info .commodity-type{
+  font-size: 20rpx;
+  color: #4f4e4e;
+  margin-top: 24rpx;
+}
+.commodity .commodity-info .commodity-price{
+  font-size: 30rpx;
+  color: #de0e0e;
+  margin-top: 28rpx;
+}
+.commodity .commodity-info .commodity-quantity{
+  font-size: 28rpx;
+  color: #151515;
+  position: absolute;
+  bottom: 10rpx;
+  right: 20rpx;
+}
+
+
+.commodity .amount{
+  font-size: 28rpx;
+  display: flex;
+  margin: 20rpx 0;
+}
+
+.commodity .amount .commodity-amount{
+  flex: 1;
+  text-align: right;
+  /* margin-right: 30rpx; */
+}
+.commodity .amount .price-amount{
+  margin: 0 30rpx 0 30rpx;
+}
+
+
+/*按钮  */
+.order .commodity-btn{
+  font-size: 22rpx;
+  color: #555;
+  text-align: center;
+  display: flex;
+  position: relative;
+  height: 60rpx;
+  
+}
+.order .commodity-btn view{
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 1rpx solid #a0a0a0;
+}
+.order .commodity-btn .btn-cancel{
+  position: absolute;
+  top: 0;
+  right: 150rpx;
+}
+.order .commodity-btn .btn-payment{
+  position: absolute;
+  top: 0;
+  right: 13rpx;
+}

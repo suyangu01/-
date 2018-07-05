@@ -1,0 +1,58 @@
+
+<view class="register">
+  <view class='content'>
+    <view class="text">姓名</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+  </view>
+  <view class='content'>
+    <view class="text">手机号码</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+  </view>
+
+  <view class='content verification'>
+    <view class="text">输入验证码</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+    <view class="verification-btn">获取验证码</view>
+  </view>
+  <view class='content'>
+    <view class="text">输入密码</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+  </view>
+  <view class='content'>
+    <view class="text">确认密码</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+  </view>
+  <view class='content'>
+    <view class="text">地区</view>
+    <view class="region-input">
+      <input></input>
+    </view>
+    <view class="region-input">
+      <input></input>
+    </view>
+  </view>
+  <view class='content'>
+    <view class="text">店铺名称</view>
+    <view class="content-input">
+      <input></input>
+    </view>
+  </view>
+
+  <view class="agree">
+    <checkbox class="checkbox"/>
+    <text class="text">已阅并同意《新形象电器》</text>
+    </view>
+
+
+  <view class="login-btn">注册</view>
+</view>

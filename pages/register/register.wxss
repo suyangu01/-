@@ -1,0 +1,84 @@
+
+
+.register{
+  padding: 66rpx 0 68rpx;
+}
+.register .content{
+  display: flex;
+  margin: 0 65rpx;
+  margin-bottom: 50rpx;
+}
+.register .content .text{
+  width: 182rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #222;
+  line-height: 80rpx;
+  margin-right: 70rpx;
+  text-align: center;
+}
+.register .content .content-input{
+  width: 410rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  border: 1rpx solid #eee;
+}
+.register .content .content-input input{
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+}
+
+.register .content .region-input{
+  width: 230rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  border: 1rpx solid #eee;
+  margin-right: 20rpx;
+}
+
+
+.register .login-btn{
+  font-size: 30rpx;
+  color: #fff;
+  background-color: #f5141b;
+  width: 400rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 90rpx; 
+}
+
+.verification{
+  position: relative;
+}
+.verification .text{
+  width: 300rpx;
+}
+.verification-btn{
+  position: absolute;
+  font-size: 26rpx;
+  color: #999;
+  right: 30rpx;
+  top: 25rpx;
+}
+
+.register .agree{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.register .agree .text{
+  font-size: 24rpx;
+}
+checkbox .wx-checkbox-input{
+border-radius: 3rpx;
+height: 26rpx;
+width: 26rpx;
+box-sizing: border-box;
+}

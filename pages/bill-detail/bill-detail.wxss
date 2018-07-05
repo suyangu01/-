@@ -1,0 +1,57 @@
+/* pages/bill-detail/bill-detail.wxss */
+page{
+  background: #f6f6f6;
+}
+.bill{
+  height:128rpx;
+  font-family:PingFang-SC-Regular;
+  padding:0 30rpx;
+  border-top:2rpx solid #f2f2f2;
+  border-bottom:2rpx solid #f2f2f2;
+  line-height: 128rpx;
+  background: #fff;
+}
+.bill .money{
+  flex: 1;
+  font-size: 28rpx;
+  width:114rpx;
+  height  :27rpx;
+  color:#666666;
+  float:left;
+}
+.bill .bill-num{
+  font-size:30rpx;
+  width: 80rpx;
+  height:23rpx;
+  color:#222222;
+  float:right;
+}
+.state{
+  background: #fff;
+}
+.state .state-msg{
+  clear:both;
+  background: #fff;
+  padding: 0 30rpx;
+  font-size:28rpx;
+  color:#666666;
+  display: flex;
+}
+.state .state-msg:last-child{
+  padding-bottom: 25rpx;
+}
+.state .second{
+  margin-top:25rpx;
+  margin-bottom: 25rpx;
+}
+.state .state-msg .status-left{
+  margin-top:28rpx;
+  width:112rpx;
+  height:27rpx;
+  text-align-last: justify; 
+}
+.state .state-msg .status-right{
+  margin-top:28rpx;
+  flex:1;
+  text-align: right
+}

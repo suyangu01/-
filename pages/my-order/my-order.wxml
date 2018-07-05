@@ -1,0 +1,47 @@
+<view class="order">
+
+  <scroll-view scroll-x class='navs-scroll'>
+    <view class="navs" >
+      <view wx:for="{{navs}}" class="{{currentTab===index?'navs-scroll-act':''}}" data-index="{{index}}"  bindtap='selectedNav'>{{item}}</view>
+    </view>
+  </scroll-view>
+
+
+  <view class="commoditys">
+    <view class="commodity" wx:for="{{commoditys}}" data-index="{{item.index}}">
+      <view class="order-state">{{item.state}}</view>
+      <view class="commodity-info">
+        <view class="commodity-img">
+          <image src="{{item.image}}"></image>
+        </view>
+        <view class="commodity-texts">
+          <view class="commodity-title">{{item.title}}</view>
+          <view class="commodity-type">{{item.genre}}</view>
+          <view class="commodity-price">￥
+            <text></text>{{item.price}}</view>
+          <view class="commodity-quantity">x
+            <text>{{item.quantity}}</text>
+          </view>
+        </view>
+
+      </view>
+
+      <view class="amount">
+        <view class="commodity-amount">共
+          <text>1</text>件商品</view>
+        <view class="price-amount">小计￥
+          <text>27.90</text>
+        </view>
+      </view>
+
+      <view class="commodity-btn">
+        <view class="btn-cancel">取消订单</view>
+        <view class="btn-payment">付款</view>
+      </view>
+
+    </view>
+
+  </view>
+
+
+</view>
